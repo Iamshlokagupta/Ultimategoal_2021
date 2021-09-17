@@ -13,9 +13,22 @@ public class GamePad2 {//start of class
     //creating a constructor
     public GamePad2(Gamepad gamepad) {
         gamepad2 = gamepad;
+    }
+
+    //Creating Button A
+    public ButtonA (ButtonA) {
+        ButtonA = gamepad;
+    }
+
+    public void gamepadAction() {
+        if(ButtonA selected){
+
+        }
+
 
     }
 
+    public
 
 }//end of class
 

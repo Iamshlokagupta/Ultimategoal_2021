@@ -17,7 +17,6 @@ public class Gamepad1 {
 
 
 
-
     public Gamepad1(Gamepad gamepad) {
         gamepad1 = gamepad;
 
@@ -31,10 +30,10 @@ public class Gamepad1 {
         y_value_right = gamepad1.right_stick_y;
 
         telemetry.addData("value of left x",x_value_left);
-        telemetry.addData = ( "value of left y",y_value_left);
-        telemetry.addData = ("x_value_right", "x_value_right");
-        telemetry.addData = ("y_value_left," "y_value_left"");
-        telemetry.addData = ("y_value_right" );
+        telemetry.addData("value of left y",y_value_left);
+        telemetry.addData("x_value_right", x_value_right);
+        telemetry.addData("y_value_left,", y_value_left);
+        telemetry.addData("y_value_right", y_value_right );
         telemetry.update();
     }
 
