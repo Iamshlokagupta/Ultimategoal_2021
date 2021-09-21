@@ -15,7 +15,7 @@ public class GamePad2 {//start of class
         gamepad2 = gamepad;
     }
 
-    //Creating Button A
+    //Creating Button A (FUNCTION)
     public ButtonA (ButtonA) {
         ButtonA = gamepad;
     }
